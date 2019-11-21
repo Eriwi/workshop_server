@@ -4,6 +4,6 @@ server {
     root /www/data;
 
     location / {
-        index index.html
+        index index.html;
     }
 }
