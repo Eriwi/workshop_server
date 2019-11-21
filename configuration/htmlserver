@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name _;
+    root /www/data;
+
+    location / {
+        index index.html
+    }
+}
