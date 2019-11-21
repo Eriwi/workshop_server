@@ -5,6 +5,9 @@
     <title>Test</title>
 </head>
 <body>
-<p>This is a different page!</p>
+<p>Data list:</p>
+{% for d in data %}
+<p>{{d.text}}</p>
+{% endfor %}
 </body>
 </html>
