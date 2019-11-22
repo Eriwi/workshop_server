@@ -8,7 +8,7 @@ This project is designed to run on a Ubuntu 18.04 machine with port 80 open.
 4. Activate the venv and install the requirements in requirements.txt
 5. install gunicorn with: pip install gunicorn
 6. Create the database by running the init_db.py script
-7. Change the **user** directory in configuration/server.conf to the current user directory on your machine.
+7. Change the **xxxx** text in configuration/server.conf to the current user on your machine (if you dont know who you are, type whoami in the terminal).
 8. Copy the file configuration/server.conf into /etc/supervisor/conf.d/
 9. reload supervisor with: sudo supervisorctl reload
 10. copy the file configuration/server into /etc/nginx/sites-enabled/ (remove any default file created by nginx)

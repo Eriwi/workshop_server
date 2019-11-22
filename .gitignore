@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+/server/*.db
 .idea
 .db
