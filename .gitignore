@@ -106,3 +106,4 @@ venv.bak/
 /server/*.db
 .idea
 .db
+.idea
