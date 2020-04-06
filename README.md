@@ -1,6 +1,6 @@
 # workshop_server
 
-This project is designed to run on a Ubuntu 18.04 machine with port 80 open using python 3.7(works with 3.5-3.8 as far as i know). This project is intended for training and demonstraion purposes and was developed by me for use in a workshop teaching masters students at Linköpings university about server deployment.
+This project is designed to run on a Ubuntu 18.04 machine with port 80 open using nginx, gunicorn and python 3.7(works with 3.X as far as i know). This project is intended for training and demonstraion purposes and was developed by me for use in a workshop teaching masters students at Linköpings university about server deployment.
 
 1. clone this repo to your VPS.
 2. Install base dependencies: python-3, python3-venv, supervisor, nginx
